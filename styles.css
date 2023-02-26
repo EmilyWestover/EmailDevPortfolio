@@ -534,8 +534,6 @@ footer {
 
     .contactform {
         flex-direction: column;
-        border: none;
-        padding: 0;
     }
 
     .contactform img {
@@ -550,5 +548,10 @@ footer {
     .pagecontainer {
         width: 90%;
         margin-left: 5%;
+    }
+
+    .contactform {
+        border: none;
+        padding: 0;
     }
 }
