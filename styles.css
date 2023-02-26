@@ -1,0 +1,273 @@
+body {
+    margin: 0!important;
+    padding: 0!important;
+    background-color: rgb(196, 247, 230);
+    width: 100vw;
+    font-family: 'Literata', serif;
+}
+
+.pagecontainer {
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+.logo {
+    text-align: center;
+    height: 180px;
+}
+
+.logo img {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 100%
+}
+
+.aboutme {
+    padding: 30px 50px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h1 {
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(205, 244, 231);
+    text-align: center;
+    margin: 40px 20px 30px 20px;
+}
+
+.border {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(171, 165, 165);
+    margin-top: 30px;
+}
+
+.sales {
+   margin: 20px 20px 0 20px;
+   text-align: left!important;
+}
+
+.two-colleft {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.two-colright {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+ 
+.two-colleft img,
+.two-colright img {
+    width: 240px;
+    height: 260px;
+    margin-top: 25px;
+}
+
+.two-colleft .content,
+.two-colright .content {
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 40%;
+    padding: 10px 20px 30px 20px;
+    background-color: rgb(56, 130, 115);
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 2% 0;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project p {
+    padding: 10px;
+}
+
+.project a {
+    text-decoration: none;
+    background-color: rgb(52, 54, 53);
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.project a:hover {
+    background-color: black;
+    border: #333 solid 1px;
+}
+
+
+.contactform {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: solid 2px rgb(56, 130, 115);
+    padding: 60px;
+    margin: auto;
+    font-size: 18px;
+    justify-content: space-between;
+    text-align: left;
+    width: 70%;
+    
+}
+
+.contact form {
+    width: 40%;
+}
+
+.contactform img {
+    width: 45%;
+    padding: 0px 0px 50px 20px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+input[type=checkbox] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    height: 50px; }
+
+input[type=text] textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: rgb(56, 130, 115);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 24px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(43, 98, 87);
+    border: #333 solid 1px;
+}
+
+footer {
+    color: #ffffff;
+    background-color: rgb(56, 130, 115);
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.socials ul {
+    padding-inline-start: 0;
+}
+
+.socials ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socials img {
+    width: 40px;
+}
+
+@media screen and (max-width:850px) {
+    .pagecontainer {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .two-colleft .content,
+    .two-colright .content {
+        font-size: 20px;
+    }
+
+    .two-colleft .content p,
+    .two-colright .content p {
+        margin-top: 0px;
+    }
+
+    .two-colleft .content h2,
+    .two-colright .content h2 {
+        margin: 0px;
+    }
+  
+    .two-colleft,
+    .two-colright {
+        text-align: center;
+        display: inline-block;
+        flex-direction: column;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .contactform {
+        flex-direction: column;
+    }
+
+    .contactform img {
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 10%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .pagecontainer {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
