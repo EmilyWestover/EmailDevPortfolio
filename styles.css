@@ -494,6 +494,10 @@ footer {
     width: 40px;
 }
 
+.contactsuccess p {
+    text-align: center;
+}
+
 @media screen and (max-width:850px) {
     .pagecontainer {
         width: 80%;
