@@ -503,6 +503,7 @@ footer {
     .two-colleft .content,
     .two-colright .content {
         font-size: 20px;
+        padding-bottom: 20px;
     }
 
     .two-colleft .content p,
@@ -553,5 +554,23 @@ footer {
     .contactform {
         border: none;
         padding: 0;
+    }
+    
+    h1 {
+        padding: 20px 10px;
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .aboutme p {
+        font-size: 17px;
+    }
+
+    .sales p {
+        font-size: 17px;
+    }
+
+    .sales h2 {
+        font-size: 20px;
     }
 }
